@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
-    int num1, num2;
-    scanf("%d", &num1);
-    scanf("%d", &num2);
+    int num1, num2, num3;
 
-    if (num1 == num2) {
+
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+
+    if (num1 == num2 && num2 == num3) {
         printf("EQUAL\n");
     } else {
         printf("NOT EQUAL\n");
